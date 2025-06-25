@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Information -->
+    <string name="app_name">PhishShield</string>
+    <string name="app_subtitle">Protect yourself from phishing attacks</string>
+
+    <!-- Main Activity -->
+    <string name="enter_url_label">Enter URL to Check</string>
+    <string name="url_hint">https://example.com or paste any link here</string>
+    <string name="check_url_button">Check URL Security</string>
+
+    <!-- Results -->
+    <string name="audit_report_title">Security Audit Report</string>
+    <string name="security_recommendations">Security Recommendations</string>
+    <string name="general_security_tip">💡 Tip: Always verify the sender before clicking any links, especially in emails or messages from unknown sources.</string>
+
+    <!-- Content Descriptions -->
+    <string name="app_icon_description">PhishShield app icon</string>
+    <string name="result_icon_description">Security check result icon</string>
+    <string name="status_icon_description">Security status icon</string>
+    <string name="warning_icon_description">Warning icon</string>
+
+    <!-- Error Messages -->
+    <string name="error_empty_url">Please enter a URL to check</string>
+    <string name="error_invalid_url">Please enter a valid URL</string>
+    <string name="error_network">Network error. Please check your connection.</string>
+    <string name="error_analysis_failed">Failed to analyze URL. Please try again.</string>
+
+    <!-- Loading States -->
+    <string name="analyzing_url">Analyzing URL security…</string>
+    <string name="please_wait">Please wait</string>
+
+    <!-- Security Status -->
+    <string name="url_safe">Safe URL</string>
+    <string name="url_suspicious">Suspicious URL</string>
+    <string name="url_dangerous">Dangerous URL</string>
+
+    <!-- Audit Categories -->
+    <string name="category_security">Security</string>
+    <string name="category_domain">Domain Analysis</string>
+    <string name="category_content">Content Analysis</string>
+    <string name="category_technical">Technical Details</string>
+
+    <!-- Risk Levels -->
+    <string name="risk_low">Low Risk</string>
+    <string name="risk_medium">Medium Risk</string>
+    <string name="risk_high">High Risk</string>
+    <string name="risk_critical">Critical Risk</string>
+
+    <!-- Common Recommendations -->
+    <string name="recommendation_https">Always look for HTTPS (secure) connections when entering sensitive information.</string>
+    <string name="recommendation_domain">Verify the domain name carefully - phishers often use similar-looking domains.</string>
+    <string name="recommendation_ip">Be cautious of URLs using IP addresses instead of domain names.</string>
+    <string name="recommendation_suspicious_words">Watch out for suspicious words like \'verify\', \'urgent\', \'suspended\' in URLs.</string>
+    <string name="recommendation_subdomains">Multiple subdomains can be a sign of phishing - verify the main domain.</string>
+
+    <!-- General Security Tips -->
+    <string name="tip_verify_sender">Always verify the sender before clicking links</string>
+    <string name="tip_check_domain">Double-check the domain name for typos</string>
+    <string name="tip_use_bookmarks">Use bookmarks for important sites instead of clicking links</string>
+    <string name="tip_two_factor">Enable two-factor authentication when available</string>
+
+    <!-- Accessibility -->
+    <string name="accessibility_safe_url">This URL is marked as safe</string>
+    <string name="accessibility_suspicious_url">This URL is marked as suspicious</string>
+    <string name="accessibility_audit_passed">Security check passed</string>
+    <string name="accessibility_audit_failed">Security check failed</string>
+</resources>
